@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=TP1 NewDesignator=12V1
+Change Component Designator: OldDesignator=TP2 NewDesignator=TP1
+Change Component Designator: OldDesignator=TP3 NewDesignator=12V2
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP2
+Change Component Designator: OldDesignator=TP5 NewDesignator=TP3
+Change Component Designator: OldDesignator=TP7 NewDesignator=5V

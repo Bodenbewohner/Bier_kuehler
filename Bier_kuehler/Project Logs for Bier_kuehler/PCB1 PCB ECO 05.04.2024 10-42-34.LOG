@@ -1,0 +1,53 @@
+Removed Pin From Net: NetName=NetJ6_1 Pin=Q1-1
+Removed Pin From Net: NetName=NetQ1_2 Pin=Q1-2
+Removed Pin From Net: NetName=NetJ8_1 Pin=Q3-1
+Removed Pin From Net: NetName=NetQ3_2 Pin=Q3-2
+Removed Pin From Net: NetName=NetJ10_1 Pin=Q5-1
+Removed Pin From Net: NetName=NetQ5_2 Pin=Q5-2
+Removed Pin From Net: NetName=+12V2 Pin=Q5-3
+Removed Member From Class: ClassName=Bier_kuehler Member=Q5
+Change Component Footprint: Designator=Q1 Old Footprint=E3 New Footprint=TO254P490X1016X1990-3P
+Change Component Footprint: Designator=Q3 Old Footprint=E3 New Footprint=TO254P490X1016X1990-3P
+Change Component Comment : Designator=Q1 Old Comment=MOSFET-N New Comment=FQPF47P06
+Change Component Comment : Designator=Q3 Old Comment=MOSFET-N New Comment=FQPF47P06
+Change component parameters: Designator = "Q1"; Footprint = "TO254P490X1016X1990-3P"; UniqueID = "\NBPTIXAF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "FQPF47P06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/fqpf47p06/on-semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.onsemi.com/pdf/datasheet/fqpf47p06-d.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "4.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FQPF47P06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "512-FQPF47P06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FQPF47P06/?qs=Ra3DxqLXWjfTqaAPd3%2FiZw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q3"; Footprint = "TO254P490X1016X1990-3P"; UniqueID = "\ZNGZYGFJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "FQPF47P06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/fqpf47p06/on-semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.onsemi.com/pdf/datasheet/fqpf47p06-d.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "4.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FQPF47P06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "512-FQPF47P06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FQPF47P06/?qs=Ra3DxqLXWjfTqaAPd3%2FiZw%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(TO254P490X1016X1990-3P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "FQPF47P06"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/fqpf47p06/on-semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.onsemi.com/pdf/datasheet/fqpf47p06-d.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "FQPF47P06"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "512-FQPF47P06"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FQPF47P06/?qs=Ra3DxqLXWjfTqaAPd3%2FiZw%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-1
+Added Pin To Net: NetName=NetJ6_1 Pin=Q1-2
+Added Pin To Net: NetName=NetQ3_2 Pin=Q2-1
+Added Pin To Net: NetName=NetJ8_1 Pin=Q2-2
+Added Pin To Net: NetName=+12V2 Pin=Q2-3
+Added Pin To Net: NetName=NetQ5_2 Pin=Q3-1
+Added Pin To Net: NetName=NetJ10_1 Pin=Q3-2
+Change Net Name : Old Net Name=NetQ1_2 New Net Name=NetQ1_1
+Change Net Name : Old Net Name=NetQ3_2 New Net Name=NetQ2_1
+Change Net Name : Old Net Name=NetQ5_2 New Net Name=NetQ3_1
+Added Member To Class: ClassName=Bier_kuehler Member=Component Q2 FQPF47P06
